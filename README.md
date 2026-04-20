@@ -1,16 +1,19 @@
-# React + Vite
+# HR Workflow Designer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visual web application to design and simulate HR workflows such as onboarding and approval processes.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Add workflow nodes: Start, Task, Approval, Automated, End
+- Connect nodes visually using drag-and-drop
+- Dynamic form fields based on node type
+- Workflow execution with step-by-step output
+- Clean UI with editing panel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Tech Stack
+- React (Vite)
+- React Flow
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ▶️ How to Run
+```bash
+npm install
+npm run dev
